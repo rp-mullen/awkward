@@ -1,0 +1,20 @@
+export const spellTemplate = {
+  spellName: '',
+  description: '',
+  spellType: 0,            // e.g. 0 = damage, 1 = heal, etc.
+  damageType: 0,           // physical, fire, frost, etc.
+  magicSchool: 0,          // e.g. 0 = Arcane, 1 = Elemental, etc.
+  manaCost: 0,
+  baseDamage: 0,
+  healAmount: 0,
+  baseBuffValue: 0,
+  powerScaling: 1,
+  cooldown: 0,
+  castTime: 0,
+  effectDuration: 0,
+  aoeRadius: 0,
+  spellShape: 0,           // e.g. 0 = single target, 1 = cone, 2 = circle
+  requiresLineOfSight: true,
+  canBeHeld: false,
+  spellPrefab: '',
+};
